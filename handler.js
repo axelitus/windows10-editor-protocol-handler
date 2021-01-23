@@ -26,7 +26,7 @@ function parseProtocols(protocols)
 function readHandler(app)
 {
     var file_system = new ActiveXObject("Scripting.FileSystemObject");
-    var path = (file_system.GetParentFolderName(WScript.ScriptFullName) + '/'+ app + '/command.js');
+    var path = (file_system.GetParentFolderName(WScript.ScriptFullName) + '/app_handlers/'+ app + '/command.js');
     if (file_system.fileExists(path)) {
         return file_system.OpenTextFile(path, 1).ReadAll();
     }
