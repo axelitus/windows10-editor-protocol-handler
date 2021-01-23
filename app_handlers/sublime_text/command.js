@@ -1,6 +1,5 @@
 ({
     settings: {
-        window_title: 'Sublime Text'
     },
     command: function(file, line) {
         var installLocationRegKey = 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Sublime Text 3_is1\\InstallLocation';

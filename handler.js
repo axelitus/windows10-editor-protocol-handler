@@ -39,7 +39,6 @@ function execute(command, settings)
     if (command != '') {
         var shell = new ActiveXObject('WScript.Shell');
         shell.Exec(command);
-        shell.AppActivate(settings.window_title);
     }
 }
 
