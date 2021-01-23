@@ -11,7 +11,7 @@
             return;
         }
 
-        command = command.replace(/%editor%/g, installPath + '/subl.exe')
+        command = command.replace(/%editor%/g, installPath + '/sublime_text.exe')
             .replace(/%file%/g, file)
             .replace(/%line%/g, line)
             .replace(/\//g, '\\');
