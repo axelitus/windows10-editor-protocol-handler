@@ -1,6 +1,8 @@
 function main(url)
 {
     var protocols = {
+        phpstorm: 'phpstorm',
+        pstorm: 'phpstorm',
         subl: 'sublime_text',
         sublime: 'sublime_text'
     };
